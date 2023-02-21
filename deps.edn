@@ -2,7 +2,7 @@
  {org.clojure/clojure
   {:mvn/version "1.11.1"}
   io.github.aamedina/rdf
-  {:git/sha "5b4ad4ceed700803ddb165b6889ef016ae4d23d8"}}
+  {:git/sha "eff73221e15c786799da7a52a42f184d852a03ad"}}
  :paths ["src" "classes" "resources"]
  :aliases
  {:dev

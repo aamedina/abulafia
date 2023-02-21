@@ -1,8 +1,7 @@
 # net.wikipunk/abulafia
-A new RDF vocabulary for wikipunk.net
+Jacobo Belbo's computer
 
 ## Usage
-
 ``` shell
 clojure -A:dev
 ```
@@ -12,8 +11,7 @@ clojure -A:dev
 ```
 
 ## License
-
-Copyright (c) 2023 Adrian
+Copyright (c) 2023 Adrian Medina
 
 Permission to use, copy, modify, and/or distribute this software for
 any purpose with or without fee is hereby granted, provided that the

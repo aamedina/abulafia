@@ -1,5 +1,15 @@
 (ns net.wikipunk.abulafia.boot
-  {:rdf/type :jsonld/Context})
+  {:rdf/type :jsonld/Context}
+  (:require
+   [net.wikipunk.rdf.rdf]
+   [net.wikipunk.rdf.rdfs]
+   [net.wikipunk.rdf.owl]
+   [net.wikipunk.rdf.schema]
+   [net.wikipunk.rdf.dcterms]
+   [net.wikipunk.rdf.prov]
+   [net.wikipunk.rdf.xhv]
+   [net.wikipunk.rdf.xsd]
+   [net.wikipunk.rdf.vann]))
 
 (def abulafia
   {:rdf/type    :rdfa/PrefixMapping

@@ -19,19 +19,15 @@
    [com.stuartsierra.component :as com]
    [com.stuartsierra.component.repl :refer [reset set-init start stop system]]
    [com.walmartlabs.schematic :as sc]
-   [net.wikipunk.boot :as boot]
+   [net.wikipunk.boot]
    [net.wikipunk.chat :as chat]
    [net.wikipunk.ext :as ext]
    [net.wikipunk.mop :as mop :refer [isa? descendants parents ancestors]]
    [net.wikipunk.openai :as openai]
-   [net.wikipunk.rdf :as r :refer [doc]]
-   [net.wikipunk.rdf.rdf :as rdf]
-   [net.wikipunk.rdf.rdfs :as rdfs]
-   [net.wikipunk.rdf.owl :as owl]
-   [net.wikipunk.rdf.schema :as schema]
+   [net.wikipunk.rdf :as rdf :refer [doc]]
    [net.wikipunk.temple :as temple]   
    [zprint.core :as zprint]
-   [net.wikipunk.abulafia.boot]
+   [net.wikipunk.abulafia.boot :as boot]
    [net.wikipunk.rdf.abulafia])
   (:refer-clojure :exclude [isa? descendants parents ancestors]))
 
