@@ -1,5 +1,5 @@
 # net.wikipunk/abulafia
-Jacobo Belbo's computer
+Jacopo Belbo's computer
 
 ## Usage
 ``` shell
