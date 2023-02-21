@@ -1,7 +1,7 @@
 # net.wikipunk/abulafia
 Jacopo Belbo's computer
 
-## Usage
+## :dev
 ``` shell
 clojure -A:dev
 ```
