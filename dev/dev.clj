@@ -6,6 +6,7 @@
   `com.stuartsierra.component.repl/system`.
   See also https://github.com/stuartsierra/component.repl"
   (:require
+   [arachne.aristotle :as a]
    [clojure.datafy :refer [datafy]]
    [clojure.edn :as edn]
    [clojure.java.io :as io]
