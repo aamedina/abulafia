@@ -1,14 +1,16 @@
-{:vocab  {:sc/create-fn net.wikipunk.rdf/map->UniversalTranslator
-          :init-ns      net.wikipunk.mop.init
-          :ns-prefix    "net.wikipunk.rdf."
-          :boot         [net.wikipunk.abulafia.boot/agentrole
-                         net.wikipunk.abulafia.boot/classification
-                         net.wikipunk.abulafia.boot/cpannotationschema
-                         #_net.wikipunk.abulafia.boot/hyperreal
-                         #_net.wikipunk.abulafia.boot/ili
-                         net.wikipunk.abulafia.boot/informationrealization
-                         net.wikipunk.abulafia.boot/objectrole
-                         net.wikipunk.abulafia.boot/semiotics
-                         net.wikipunk.abulafia.boot/simulation
-                         net.wikipunk.abulafia.boot/situation]}
- :openai {:sc/create-fn net.wikipunk.openai/map->Client}}
+{:vocab    {:sc/create-fn net.wikipunk.rdf/map->UniversalTranslator
+            :sc/refs      [:abulafia]
+            :init-ns      net.wikipunk.temple.init
+            :ns-prefix    "net.wikipunk.rdf."
+            :boot         [net.wikipunk.abulafia.boot/agentrole
+                           net.wikipunk.abulafia.boot/classification
+                           net.wikipunk.abulafia.boot/cpannotationschema
+                           net.wikipunk.abulafia.boot/informationrealization
+                           net.wikipunk.abulafia.boot/objectrole
+                           net.wikipunk.abulafia.boot/semiotics
+                           net.wikipunk.abulafia.boot/simulation
+                           net.wikipunk.abulafia.boot/situation]
+            :config       {:xtdb.lucene/lucene-store
+                           {:db-dir ".vocab/lucene"}}}
+ :openai   {:sc/create-fn net.wikipunk.openai/map->Client}
+ :abulafia {:sc/create-fn net.wikipunk.abulafia/map->Abulafia}}
