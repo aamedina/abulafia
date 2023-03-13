@@ -48,7 +48,12 @@
     "Cite this Ontology as: Sartini, B. The Simulation ontology. https://www.w3id.org/simulation/ontology/ "},
    :vann/preferredNamespacePrefix {:rdf/language "en",
                                    :rdf/value    "sim"},
-   :vann/preferredNamespaceUri "https://www.w3id.org/simulation/ontology/"})
+   :vann/preferredNamespaceUri "https://www.w3id.org/simulation/ontology/"}
+  (:require   
+   [net.wikipunk.rdf.prov]
+   [net.wikipunk.rdf.schema]
+   [net.wikipunk.rdf.vann]
+   [net.wikipunk.rdf.xhv]))
 
 (def AllusionSimulation
   "A specific kind of simulation in which the simulacrum alludes to the reality counterpart. Is a more subtle symbolic relationship than the normal simulation."

@@ -31,7 +31,9 @@
    :rdf/uri "http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl",
    :rdfa/prefix "agentrole",
    :rdfa/uri "http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl#",
-   :rdfs/label "agent role"})
+   :rdfs/label "agent role"}
+  (:require
+   [net.wikipunk.rdf.objectrole]))
 
 (def Agent
   "Any agentive Object , either physical, or social."

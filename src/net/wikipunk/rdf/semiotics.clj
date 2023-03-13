@@ -27,7 +27,11 @@
    :rdfa/prefix "semiotics",
    :rdfa/uri "http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#",
    :rdfs/comment
-   "A content ontology pattern that encodes a basic semiotic theory, by reusing the situation pattern.\nThe basic classes are: Expression, Meaning, Reference (the semiotic triangle), LinguisticAct (for the pragmatics), and Agent.\nA linguistic act is said to be context for expressions, with their meanings and references, and agents involved.\nBased on this pattern, several specific linguistic acts, such as 'tagging', 'translating', 'defining', 'formalizing', etc. can be defined, so constituting a formal vocabulary for a pragmatic web.\nThis pattern has been extracted from a larger reference ontology, LMM, which is used in conjunction with DOLCE+DnS (http://www.ontologydesignpatterns.org/ont/dul/DUL.owl), in order to provide a metamodel to Wordnet, Linked Open Data, natural language processing data, etc."})
+   "A content ontology pattern that encodes a basic semiotic theory, by reusing the situation pattern.\nThe basic classes are: Expression, Meaning, Reference (the semiotic triangle), LinguisticAct (for the pragmatics), and Agent.\nA linguistic act is said to be context for expressions, with their meanings and references, and agents involved.\nBased on this pattern, several specific linguistic acts, such as 'tagging', 'translating', 'defining', 'formalizing', etc. can be defined, so constituting a formal vocabulary for a pragmatic web.\nThis pattern has been extracted from a larger reference ontology, LMM, which is used in conjunction with DOLCE+DnS (http://www.ontologydesignpatterns.org/ont/dul/DUL.owl), in order to provide a metamodel to Wordnet, Linked Open Data, natural language processing data, etc."}
+  (:require
+   [net.wikipunk.rdf.agentrole]
+   [net.wikipunk.rdf.cpannotationschema]
+   [net.wikipunk.rdf.situation]))
 
 (def Expression
   "Any information that either dul:expresses a Meaning or denotes a Reference"
