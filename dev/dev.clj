@@ -29,7 +29,7 @@
    [net.wikipunk.temple :as temple]   
    [zprint.core :as zprint]
    [net.wikipunk.abulafia.boot :as boot]
-   [net.wikipunk.rdf.abulafia]
+   [net.wikipunk.abulafia :as abulafia]
    [xtdb.api :as xt])
   (:refer-clojure :exclude [isa? descendants parents ancestors]))
 

@@ -91,8 +91,3 @@
    :rdf/type         :rdfa/PrefixMapping
    :rdfa/uri         "http://globalwordnet.org/ili/"
    :rdfa/prefix      "ili"})
-
-(def snap
-  {:rdf/type    :rdfa/PrefixMapping
-   :rdfa/uri    "https://github.com/snap-stanford/snap/"
-   :rdfa/prefix "snap"})
