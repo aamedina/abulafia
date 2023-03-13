@@ -49,7 +49,9 @@
    :vann/preferredNamespacePrefix {:rdf/language "en",
                                    :rdf/value    "sim"},
    :vann/preferredNamespaceUri "https://www.w3id.org/simulation/ontology/"}
-  (:require   
+  (:require
+   [net.wikipunk.rdf.situation]
+   [net.wikipunk.rdf.semiotics]
    [net.wikipunk.rdf.prov]
    [net.wikipunk.rdf.schema]
    [net.wikipunk.rdf.vann]
